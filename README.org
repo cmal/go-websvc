@@ -1,0 +1,35 @@
+* Demo Go http server
+
+
+** add django like template
+
+** add csrf protection
+
+** add express like http-router
+
+** run
+
+   $ mkdir public/
+
+add js/css files there,
+
+   $ go run server.go
+
+(if you use OS X, click "Accept" in the popup window)
+
+in OS X:
+
+   $ open http://localhost:3010
+
+You will see "/".
+
+   $ open http://localhost:3010/hello/cmal
+
+You will see "Hello World! cmal!".
+
+   $ open http://localhost:3010/app
+
+and you will see the html page rendered by `pongo2` template renderer.
+
+(the stylesheets and javascript files in this template are used by me,
+to run a SPA app. You may want to modify this file and create your own template.)
