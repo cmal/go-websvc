@@ -8,25 +8,35 @@
 
 ** run
 
-   $ mkdir public/
+#+BEGIN_SRC bash
+  $ mkdir public/
+#+END_SRC
 
 add js/css files there,
 
-   $ go run server.go
+#+BEGIN_SRC bash
+  $ go run server.go
+#+END_SRC
 
 (if you use OS X, click "Accept" in the popup window)
 
 in OS X:
 
-   $ open http://localhost:3010
+#+BEGIN_SRC bash
+  $ open http://localhost:3010
+#+END_SRC
 
 You will see "/".
 
-   $ open http://localhost:3010/hello/cmal
+#+BEGIN_SRC bash
+  $ open http://localhost:3010/hello/cmal
+#+END_SRC
 
 You will see "Hello World! cmal!".
 
-   $ open http://localhost:3010/app
+#+BEGIN_SRC bash
+  $ open http://localhost:3010/app
+#+END_SRC
 
 and you will see the html page rendered by `pongo2` template renderer.
 
