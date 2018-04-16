@@ -1,11 +1,10 @@
 * Demo Go http server
 
+** features
 
-** add django like template
-
-** add csrf protection
-
-** add express like http-router
+   - [X] django like template
+   - [X] csrf protection
+   - [X] express like http-router
 
 ** run
 
